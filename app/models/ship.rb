@@ -1,13 +1,13 @@
 class Ship
   @@ships = []
 
-  attr_accessor :name, :weight, :height
+  attr_accessor :name, :type, :booty
 
-  def initialize(name, weight, height)
+  def initialize(name, type, booty)
     @name = name
-    @weight = weight
-    @height = height
-    @@pirates << self
+    @type = type
+    @booty = booty
+    @@ships << self
   end
 
   def self.all

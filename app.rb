@@ -13,5 +13,8 @@ module FormsLab
       erb :new
     end    # code other routes/actions here
 
+    post '/pirates' do
+
+    end
   end
 end

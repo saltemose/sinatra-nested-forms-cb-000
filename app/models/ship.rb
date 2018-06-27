@@ -15,4 +15,3 @@ class Ship
   end
 
 end
-end

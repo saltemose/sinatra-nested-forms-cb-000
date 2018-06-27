@@ -7,7 +7,11 @@ module FormsLab
 
       erb :index
     end
-    # code other routes/actions here
+
+    get '/new' do
+
+      erb :new
+    end    # code other routes/actions here
 
   end
 end

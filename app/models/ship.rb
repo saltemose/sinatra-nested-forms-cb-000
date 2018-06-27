@@ -11,7 +11,7 @@ class Ship
   end
 
   def self.all
-    @@pirates
+    @@ships
   end
 
 end

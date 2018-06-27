@@ -4,7 +4,7 @@ class Pirate
 
   attr_reader :name, :weight, :height
 
-  def initialize(name, weight, height)
+  def initialize(args)
     @name = name
     @weight = weight
     @height = height

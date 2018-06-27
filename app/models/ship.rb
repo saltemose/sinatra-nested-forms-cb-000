@@ -14,4 +14,8 @@ class Ship
     @@ships
   end
 
+  def self.clear
+    @@ships.delete_all
+  end
+  
 end

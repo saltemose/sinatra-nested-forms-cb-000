@@ -3,7 +3,7 @@ class Ship
 
   attr_reader :name, :type, :booty
 
-  def initialize(args)
+  def initialize(name, type, booty)
     @name = name
     @type = type
     @booty = booty
